@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+.btn{
+    border-width: 2px;
+}
+.form-control{
+    border-width: 2px;
+}
+.nav-text{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.carousel-item-header{
+    height: 450px;
+}
+.bg-cover{
+    background-size: cover !important; 
+    background-position: center center !important;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.5);
+}
+.bg-color{
+    background: #024763;
+}
+.text-md-dark{
+    @media (min-width: 768px) {
+        color:#6c757d;
+    }
+
+}
+.text-bold{
+    font-weight: 900;
+}
+.bg-back-color{
+    background: rgba(0, 0, 0, 0.5);
+}
