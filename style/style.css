@@ -41,4 +41,8 @@
 .bg-back-color {
   background: rgba(0, 0, 0, 0.5);
 }
+
+body {
+  overflow-x: hidden;
+}
 /*# sourceMappingURL=style.css.map */
