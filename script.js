@@ -13,3 +13,15 @@ window.addEventListener('load', function () {
         }, false);
     });
 }, false);
+
+$(document).ready(function(){
+    $('a[data-dismiss="modal"][data-toggle="modal"]').on('click', function(){
+        console.log("Click");
+        var target=$(this).data('target');
+        $(target).on('shown.bs.modal',function(){
+            $('body').addClass('modal-open');
+        });
+        
+    })
+})
+
